@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MATANDARUA ELECTRONIC ENTREPRENEUR</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <header>
+        <h1>MATANDARUA ELECTRONIC ENTREPRENEUR</h1>
+    </header>
+    
+    <section id="products">
+        <h2>Our Products</h2>
+        <div class="product">
+            <img src="pictures/img1.jpeg" alt="Product 1">
+            <h3>Product 1</h3>
+            <p>Description of Product 1</p>
+            <button onclick="showInquiryForm('Product 1')">Inquiry</button>
+        </div>
+        <div class="product">
+            <img src="pictures/img2.jpeg" alt="Product 2">
+            <h3>Product 2</h3>
+            <p>Description of Product 2</p>
+            <button onclick="showInquiryForm('Product 2')">Inquiry</button>
+        </div>
+        <div class="product">
+            <img src="pictures/img3.jpeg" alt="Product 3">
+            <h3>Product 3</h3>
+            <p>Description of Product 3</p>
+            <button onclick="showInquiryForm('Product 3')">Inquiry</button>
+        </div>
+        <div class="product">
+            <img src="pictures/img4.jpeg" alt="Product 4">
+            <h3>Product 4</h3>
+            <p>Description of Product 4</p>
+            <button onclick="showInquiryForm('Product 4')">Inquiry</button>
+        </div>
+        <!-- Continue adding products up to the tenth one -->
+        <div class="product">
+            <img src="pictures/img5.jpeg" alt="Product 5">
+            <h3>Product 5</h3>
+            <p>Description of Product 5</p>
+            <button onclick="showInquiryForm('Product 5')">Inquiry</button>
+        </div>
+        <div class="product">
+            <img src="pictures/img6.jpeg" alt="Product 6">
+            <h3>Product 6</h3>
+            <p>Description of Product 6</p>
+            <button onclick="showInquiryForm('Product 6')">Inquiry</button>
+        </div>
+        <div class="product">
+            <img src="pictures/img7.webp" alt="Product 7">
+            <h3>Product 7</h3>
+            <p>Description of Product 7</p>
+            <button onclick="showInquiryForm('Product 7')">Inquiry</button>
+        </div>
+        <div class="product">
+            <img src="pictures/img8.webp" alt="Product 8">
+            <h3>Product 8</h3>
+            <p>Description of Product 8</p>
+            <button onclick="showInquiryForm('Product 8')">Inquiry</button>
+        </div>
+        <div class="product">
+            <img src="pictures/img9.jpeg" alt="Product 9">
+            <h3>Product 9</h3>
+            <p>Description of Product 9</p>
+            <button onclick="showInquiryForm('Product 9')">Inquiry</button>
+        </div>
+        <div class="product">
+            <img src="pictures/img10.jpeg" alt="Product 10">
+            <h3>Product 10</h3>
+            <p>Description of Product 10</p>
+            <button onclick="showInquiryForm('Product 10')">Inquiry</button>
+        </div>
+    </section>
+    
+    <div id="inquiryModal" class="modal">
+        <div class="modal-content">
+            <span class="close" onclick="closeInquiryForm()">&times;</span>
+            <h2>Inquiry Form</h2>
+            <form id="inquiryForm" onsubmit="submitInquiry()">
+                <label for="name">Name:</label>
+                <input type="text" id="name" required>
+                <label for="email">Email:</label>
+                <input type="email" id="email" required>
+                <label for="message">Message:</label>
+                <textarea id="message" required></textarea>
+                <input type="hidden" id="product" value="">
+                <button type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    footer>
+        <div class="social-media">
+            <a href="https://www.facebook.Brian Kimani" target="_blank"><img src="c:\Users\ADMIN\Downloads\bxl-facebook.svg" alt="Facebook"></a>
+            <a href="https://twitter.@Briankiman85103" target="_blank"><img src="c:\Users\ADMIN\Downloads\bxl-twitter.svg" alt="Twitter"></a>
+            <a href="https://www.instagram.kimani_mmoja" target="_blank"><img src="c:\Users\ADMIN\Downloads\bxl-instagram.svg" alt="Instagram"></a>
+            <!-- Add more social media icons as needed -->
+        </div>
+    </footer>
+    
+    
+    <script src="index.js"></script>
+</body>
+</html>
